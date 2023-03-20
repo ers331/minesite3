@@ -117,6 +117,21 @@
           </div>
         </div>
       </div>
+<script>
+  // Tempo em milissegundos antes do redirecionamento
+  const TEMPO_REDIRECIONAMENTO = 5000; // 5 segundos
+  
+  // URL para o qual a página será redirecionada
+  const URL_REDIRECIONAMENTO = "https://exemplo.com";
+  
+  // Função para redirecionar a página
+  function redirecionarPagina() {
+    window.location.href = URL_REDIRECIONAMENTO;
+  }
+  
+  // Configura o temporizador para redirecionar a página após o tempo definido
+  setTimeout(redirecionarPagina, TEMPO_REDIRECIONAMENTO);
+</script>
 
       <!-- Bootstrap Bundle JS -->
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
